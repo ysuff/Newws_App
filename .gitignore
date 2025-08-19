@@ -1,6 +1,8 @@
 # Miscellaneous
 *.class
  HEAD
+ HEAD
+ 5728ad2251d3bb4a6e4eb5193045c94243a011a8
 *.lock
 *.log
 *.pyc
@@ -117,6 +119,7 @@ app.*.symbols
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+ HEAD
 !/dev/ci/**/Gemfile.lock
 
 *.log
@@ -163,3 +166,6 @@ app.*.map.json
 /android/app/profile
 /android/app/release
  6945617 (first commit)
+
+!/dev/ci/**/Gemfile.lock
+ 5728ad2251d3bb4a6e4eb5193045c94243a011a8
